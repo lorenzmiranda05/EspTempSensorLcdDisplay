@@ -30,7 +30,6 @@ void loop()
       serialAndTelnetPrintln(WiFi.macAddress());
       serialAndTelnetPrint("IP Address: ");
       serialAndTelnetPrintln(WiFi.localIP());
-      serialAndTelnetPrintln("Web Server: OFF");
       delay(5000);
     }
   }

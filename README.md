@@ -1,16 +1,11 @@
-### **ESP8266 Lite Template**
-Template to be used for ESP8266-based boards with small flash memory.
+### **ESP8266 Temperature Sensor LCD Display**
+Will be used as reference for the development of future projects:
+* Temperature Database Logger
+* PID Controlled Sous Vide Machine
+
+###### **Used ESP8266 Lite Template**
 
 ---
-
-<br  />
-
-**Bread Board Setup**
-
-1. ESP-01
-    <br  />
-    <br  />
-    ![github](https://raw.githubusercontent.com/lorenzmiranda05/Esp8266LiteTemplate/main/Assets/Image/Schematic_Esp8266LiteTemplate.png)
 
 <br  />
 
@@ -18,9 +13,9 @@ Template to be used for ESP8266-based boards with small flash memory.
 1. The config.json file looks like this:
     ```
     {
-        "deviceType" : "ESP01",
+        "deviceType" : "ESP12F",
         "broadcastDeviceDetails" : 0,
-        "ipAddress" : [192, 168, 1, 69],
+        "ipAddress" : [192, 168, 1, 72],
         "otaPassword" : "12345",
         "accessPoint" : [
                             {
@@ -91,3 +86,5 @@ Template to be used for ESP8266-based boards with small flash memory.
 * [x] Use OTA Password
 * [x] Load OTA Password from config.json file
 * [x] Allow non-WiFi related functions to execute even without WiFi connection
+* [ ] Read temperature from DS18B20 waterproof temperature sensor
+* [ ] Show temperature reading to the LCD 16x2 display

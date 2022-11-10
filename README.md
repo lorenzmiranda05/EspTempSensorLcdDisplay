@@ -48,6 +48,16 @@ Will be used as reference for the development of future projects:
 <br  />
 |&nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp;|-- SPI @ 1.0
 <br  />
+|-- LiquidCrystal_I2C @ 1.2.4
+<br  />
+|&nbsp; &nbsp; &nbsp;|-- Wire @ 1.0
+<br  />
+|-- OneWire @ 2.3.7
+<br  />
+|-- DallasTemperature @ 3.11.0
+<br  />
+|&nbsp; &nbsp; &nbsp;|-- OneWire @ 2.3.7
+<br  />
 |-- Utility
 <br  />
 |&nbsp; &nbsp; &nbsp;|-- ArduinoJson @ 6.19.4
@@ -60,9 +70,19 @@ Will be used as reference for the development of future projects:
 <br  />
 |&nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp;|-- ESP8266WiFi @ 1.0
 <br  />
+|&nbsp; &nbsp; &nbsp;|-- DallasTemperature @ 3.11.0
+<br  />
+|&nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp;|-- OneWire @ 2.3.7
+<br  />
 |&nbsp; &nbsp; &nbsp;|-- ESP8266WiFi @ 1.0
 <br  />
+|&nbsp; &nbsp; &nbsp;|-- LiquidCrystal_I2C @ 1.2.4
+<br  />
+|&nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp;|-- Wire @ 1.0
+<br  />
 |&nbsp; &nbsp; &nbsp;|-- LittleFS @ 0.1.0
+<br  />
+|&nbsp; &nbsp; &nbsp;|-- OneWire @ 2.3.7
 <br  />
 |&nbsp; &nbsp; &nbsp;|-- TelnetStream @ 1.2.2
 <br  />
@@ -72,6 +92,7 @@ Will be used as reference for the development of future projects:
 <br  />
 |&nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp;|-- SPI @ 1.0
 <br  />
+|&nbsp; &nbsp; &nbsp;|-- Wire @ 1.0
 
 <br  />
 
@@ -85,6 +106,7 @@ Will be used as reference for the development of future projects:
 * [x] Load static IP from config.json file
 * [x] Use OTA Password
 * [x] Load OTA Password from config.json file
-* [x] Allow non-WiFi related functions to execute even without WiFi connection
-* [ ] Read temperature from DS18B20 waterproof temperature sensor
-* [ ] Show temperature reading to the LCD 16x2 display
+* [x] Remove process-blocking code
+* [x] Read temperature from DS18B20 waterproof temperature sensor
+* [x] Create LCD custom character/s
+* [x] Show temperature reading to the LCD 16x2 display

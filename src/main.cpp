@@ -13,7 +13,6 @@ void setup()
   lcdRefreshSchedule.storedMillis = 0;
   lcdRefreshSchedule.interval = 1000;
 
-  /* colums - 16, rows - 2, cell resolution - 5x8, SDA - GPIO4, SCL - GPIO5 */
   lcd.begin(Columns, Rows, LCD_5x8DOTS, I2CDataPin, I2CClockPin);
   lcd.setCursor(0, 0);
   lcd.print(F("ESP-12F LCD 1602"));

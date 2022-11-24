@@ -12,8 +12,8 @@
 #define JsonConfigFile "/config.json"
 #define Columns 16
 #define Rows 4
-#define I2CDataPin 4
-#define I2CClockPin 5
+#define I2CDataPin 5
+#define I2CClockPin 4
 #define OneWirePin 10
 
 ESP8266WiFiMulti WiFiMulti;
